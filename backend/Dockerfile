@@ -5,4 +5,4 @@ WORKDIR /opt/backend/
 COPY expense/ /opt/backend/
 RUN npm install
 ENV DB_HOST="mysql"
-CMD ["node", "/app/index.js"]
+CMD ["node", "index.js"]
